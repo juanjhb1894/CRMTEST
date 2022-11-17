@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CRM TEST</string>
+    <string name="no_connection">Connexion no disponible</string>
+    <string name="no_internet">Favor verifique su conexion a Internet</string>
+    <string name="sing_in">Acceder ahora</string>
+    <string name="email">Correo electronico</string>
+    <string name="remember_password">Recordar me</string>
+    <string name="sing_in_now">Acceder</string>
+    <string name="sign_up_here">Registrarse Ahora</string>
+    <string name="no_account">¿Aun no tienes un cuenta?</string>
+    <string name="filter">Escribe cualquier texto para filtrar</string>
+    <string name="search_title">Buscas algun cliente</string>
+    <string name="at_least_three_characters">Necesitas al menos 3 caracteres para buscar</string>
+    <string name="update">Actualizar</string>
+    <string name="conectar">Connectar</string>
+    <string name="address">Direccion</string>
+    <string name="city">Ciudad</string>
+    <string name="phone">Telefono</string>
+    <string name="Email">Correo Electronico</string>
+    <string name="save">Guardar</string>
+    <string name="name">Nombre</string>
+    <string name="done">Listo</string>
+    <string name="added_info">Usuario guardado correctamente!</string>
+    <string name="okey">Okey</string>
+    <string name="add_new_user">Agregar un nuevo Cliente</string>
+    <string name="error_adding_info">Error al intentar agregar un nuevo cliente</string>
+    <string name="error">Error</string>
+    <string name="main_address">Direccion Principal</string>
+    <string name="secundary_address">Direccion Secundaria</string>
+</resources>

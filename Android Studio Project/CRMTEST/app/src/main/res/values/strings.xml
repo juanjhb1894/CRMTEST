@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CRM TEST</string>
+    <string name="no_connection">No connection available</string>
+    <string name="no_internet">Please check your internet connection</string>
+    <string name="sing_in">Sign In Now</string>
+    <string name="email">e-Mail</string>
+    <string name="password" translatable="false">********</string>
+    <string name="remember_password">Remember me</string>
+    <string name="sing_in_now">SIGN IN</string>
+    <string name="sign_up_here">Sign Up from here!</string>
+    <string name="no_account">Don\'t you have an account?</string>
+    <string name="filter">Write any text to filter</string>
+    <string name="search_title">Searching for a customer</string>
+    <string name="at_least_three_characters">You will need at least 3 character to filter a customer</string>
+    <string name="update">Update</string>
+    <string name="conectar">Connect</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="phone">Phone</string>
+    <string name="Email">eMail</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="done">Done</string>
+    <string name="added_info">User has been successfully added!</string>
+    <string name="okey">Okey</string>
+    <string name="add_new_user">Add a new Customer</string>
+    <string name="error_adding_info">Error while trying to add a new customer</string>
+    <string name="error">Error</string>
+    <string name="main_address">Main Address</string>
+    <string name="secundary_address">Secundary Address</string>
+</resources>

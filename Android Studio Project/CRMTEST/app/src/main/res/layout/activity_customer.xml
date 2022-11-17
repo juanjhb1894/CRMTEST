@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerActivity">
+
+    <ImageView
+        android:id="@+id/imgProfilePic"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_baseline_account_circle_24" />
+
+    <LinearLayout
+        android:id="@+id/lyPIN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgProfilePic"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/name"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etAddressName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/et_rounder_corner"
+            android:hint="Juan Jesus Herrera Benitez"
+            android:inputType="text"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/phone"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etAddressPhone"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/et_rounder_corner"
+            android:hint="+1(829)935-0432"
+            android:inputType="text"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/Email"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etAddressEmail"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/et_rounder_corner"
+            android:hint="juanjesus1894@gmail.com"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+        <ListView
+            android:layout_below="@id/lyPIN"
+            android:layout_above="@id/btnUpdateProfile"
+            android:id="@+id/lstAddresses"
+            android:scrollbarThumbVertical="@color/main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnUpdateProfile"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_buttom_inverse"
+        android:text="@string/update"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>
